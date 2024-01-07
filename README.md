@@ -1,0 +1,1 @@
+# GenshinEducation.github.io
