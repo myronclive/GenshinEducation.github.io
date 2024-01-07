@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AAB323;
+    position: sticky;
+}
+.navbar ul{
+    display: flex;
+    margin: 22px;
+
+}
+.navbar ul li{
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #49E8D7;
+    padding: 10px 27px;
+    transition: all 1.0s ease;
+}
+.navbar ul li a:hover{
+    background-color: #9AEFA8;
+    color: #561791;
+    box-shadow: 0 0 15px white;
+}
+
+/* Outline Section */
+#outline{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background: url(Genshin-Impact-live-player-count.jpg) no-repeat center center/cover;
+}
+.row{
+    display: flex;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 12px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(121, 6, 66, 0.862) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(121, 6, 66, 0.862);
+}
+.headings{
+    font-family: Verdana;
+    padding-bottom: 20px;
+    text-align: center;
+}
+h2{
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: pink;
+    font-size: 19px;
+}
+.box img{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    padding: 16px;
+}
+
+/* Plan Section */
+#plan{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 34px;
+    background: url(2.jpg) no-repeat center center/cover;
+}
+.row{
+    display: flex;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 12px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(121, 6, 66, 0.862) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(121, 6, 66, 0.862);
+}
+.headings{
+    font-family: Verdana;
+    padding: 25px;
+    text-align: center;
+}
+h2{
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: pink;
+    font-size: 19px;
+}
+.box img{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    padding: 16px;
+}
+
+/* Team Section */
+#team{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background: #EB8E0F;
+}
+.headings{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 22px;
+    padding: 25px;
+}
